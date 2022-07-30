@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>My fav Filme</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="nav-left">
+          <img
+            src="./assets/img/Frame 2.png"
+            alt="Memovies logo"
+            width="87"
+            height="64"
+          />
+          <ul class="navigation-items">
+            <li id="terror"><a>Home</a></li>
+            <li id="comédia"><a href="">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <div class="button">
+            <a href="" target="_blank"> Contato </a>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-info">
+          <h1 class="title">Procure seu filme favorito</h1>
+          <h3 class="subtitle">Digite seu filme</h3>
+        </div>
+        <div class="main-search">
+          <div class="search-bar">
+            <div class="search-select">
+              <select name="search-select" id="search-select">
+                <option value="movie">Filme</option>
+                <option value="series">Serie</option>
+                <option value="episodes">Episódio</option>
+              </select>
+            </div>
+            <input
+              type="text"
+              placeholder="Procure seu Filme!"
+              class="search-input"
+            />
+            <div class="search-icon">
+              <img src="./assets/img/Vector.png" alt="Busca" />
+            </div>
+          </div>
+        </div>
+        <div class="results-area"></div>
+      </div>
+    </div>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
