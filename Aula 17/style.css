@@ -1,0 +1,13 @@
+.squares {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: black;
+  margin-bottom: 10px;
+}

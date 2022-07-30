@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&family=Oxanium:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#header {
+  border-bottom: 2px solid black;
+}
+
+.itensMenu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.itensMenu li {
+  padding: 0px 30px;
+  list-style: none;
+}
+
+#biografia {
+  max-width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#biografia img {
+  margin: 20px;
+  border-radius: 999px;
+  width: 400px;
+}
+
+#biografia .textoBiografia {
+  font-size: 22px;
+}
+
+#minhasHabilidades {
+  max-width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 30px;
+  text-align: left;
+}
+
+#minhasHabilidades img {
+  max-width: 60px;
+  max-height: 35px;
+}
+
+#minhasHabilidades .js {
+  background-color: rgb(51, 51, 48);
+  width: 100%;
+  height: 30px;
+  border: 2px solid black;
+}
+
+#minhasHabilidades .js .jsProgresso {
+  background-color: yellow;
+  height: 100%;
+  width: 30%;
+  text-align: right;
+  font-size: 23px;
+}
+
+#minhasHabilidades .html {
+  background-color: rgb(51, 51, 48);
+  width: 100%;
+  height: 30px;
+  border: 2px solid black;
+}
+
+#minhasHabilidades .html .htmlProgresso {
+  background-color: rgb(255, 115, 0);
+  height: 100%;
+  width: 60%;
+  text-align: right;
+  font-size: 23px;
+}
+
+#minhasHabilidades .css {
+  background-color: rgb(51, 51, 48);
+  width: 100%;
+  height: 30px;
+  border: 2px solid black;
+}
+
+#minhasHabilidades .css .cssProgresso {
+  background-color: rgb(0, 195, 255);
+  height: 100%;
+  width: 50%;
+  text-align: right;
+  font-size: 23px;
+}
+
+#minhasExperiencias {
+  max-width: 60%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#minhasExperiencias .blocos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#minhasExperiencias p {
+  background-color: cyan;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+#footer {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(197, 78, 78);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer a {
+  padding: 5px;
+  color: agua;
+}

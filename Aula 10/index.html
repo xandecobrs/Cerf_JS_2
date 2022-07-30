@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - 10 CERF</title>
+</head>
+<body>
+    <style>
+        .navigation-list{
+            display: flex;
+            justify-content: center; 
+        }
+        .navigation-list li {
+            list-style: none;
+            margin: 0 10px;
+        }
+        .navigation-list a {
+            text-decoration: none;
+            color: #000;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-text h1, .about h2, .about p, .contact h2 {
+            text-align: center;
+        }
+        .about img {
+            width: 50%;
+            height: auto;
+        }
+        .contact form, .text-area {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form label {
+            margin: 10px 0;
+        }
+        .about figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .about figure figcaption {
+            background-color: #ccc;
+            width: 50%;
+            text-align: center;
+        }
+        .projects ul li{
+            text-align: center;
+        }
+
+    </style>
+    <nav>
+        <ul class="navigation-list">
+            <li><a href="#mainText">Home</a></li>
+            <li><a href="#aboutMe">Sobre mim</a></li>
+            <li><a href="#contactMe">Contato</a></li>
+            <li><a href="#projects">Projetos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-text" id="mainText">
+            <h1>Bem vindo ao meu site</h1>
+            <p class="main-paragraph">
+                Olá visitante text text text aaaaaaaaaaaaaaaaaaaaaaaaaa text text text
+                aaaaaaaaaaa text text 
+            </p>
+        </div>
+        <div class="about" id="aboutMe">
+            <h2>Sobre Mim</h2>
+            <figure>
+                <img src="./78235dc069a0118311b6d54ee4e20d9c.jpg" alt="Izumi">
+                <figcaption>Esse é o izumi</figcaption>
+            </figure>
+            <p>
+                Ele é fofinho é lindo mds que homem noi temos o mesmo nivel de boiolagem é isso ai 
+            </p>
+        </div>
+        <div class="contact" id="contactMe">
+            <h2>Entre em contato comigo</h2>
+            <form>
+                <label for="name">
+                    Nome:
+                    <input type="text" placeholder="Seu nome" required name="name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" placeholder="Seu email" required>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="projects" id="projects">
+            <h2>Segue aqui os bagulhos</h2>
+            <ul>
+                <li class="project">Projeto 1</li>
+                <li class="project">Projeto 2</li>
+                <li class="project">Projeto 3</li>
+                <li class="project">Projeto 4</li>
+                <li class="project">Projeto 5</li>
+                <li class="project">Projeto 6</li>
+            </ul>
+        </div>
+        <footer>
+            <p>Me siga no <a href="www.google.com.br" target="_blank">Instagram</a></p>
+        </footer>
+    </main>
+</body>
+</html>
