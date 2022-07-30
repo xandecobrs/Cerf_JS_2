@@ -24,7 +24,7 @@ const displayResults = (data) => {
 };
 
 const search = async (value, type) => {
-    fetch(`https://www.omdbapi.com/?apikey=9d7e1492&type=${type}&s=${value}`).then((response) => response.json()).then((data) => {
+    fetch(`https://www.omdbapi.com/?apikey=b092d15c&type=${type}&s=${value}`).then((response) => response.json()).then((data) => {
         console.log(data);
         result = data;
         displayResults(data);
