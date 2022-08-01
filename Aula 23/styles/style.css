@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 body {
-  background-color: #bf40bf;
+  background-color: #267dee;
   font-family: "Poppins", sans-serif;
 }
 
@@ -57,18 +57,18 @@ body {
 }
 
 .navigation-items a {
-  color: rgb(255, 255, 255);
+  color: rgb(18, 14, 253);
   text-decoration: none;
 }
 
 .navigation .button a {
   padding: 10px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(59, 17, 209);
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(18, 35, 194);
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .main-info .title {
-  color: rgb(255, 255, 255);
+  color: rgb(15, 28, 201);
   text-align: center;
   font-size: 48px;
   font-weight: 600;
@@ -102,7 +102,7 @@ body {
 }
 
 .main-info .subtitle {
-  color: rgba(255, 253, 253, 0.651);
+  color: rgba(26, 23, 211, 0.651);
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -121,7 +121,7 @@ body {
 }
 
 .search-select select {
-  background: white;
+  background: rgb(25, 13, 196);
   border: none;
   padding: 10px;
   margin: 10px 0px 10px 10px;
