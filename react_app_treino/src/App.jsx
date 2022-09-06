@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./styles/App.css";
 import Tasks from "./components/Tasks.jsx";
 import AddTask from "./components/AddTask.jsx";
 import Header from "./components/Header";
-import TaskDetails from './components/TaskDetails.jsx'
+import TaskDetails from "./components/TaskDetails.jsx";
 
 const App = () => {
   const [tasks, setTasks] = useState([
@@ -51,18 +51,18 @@ const App = () => {
   };
 
   return (
-		<Router>
-			<div className="container">
-				<Header />
+    <Router>
+      <div className="container">
+        <Header />
 							<AddTask handleTaskAddition={handleTaskAddition} />
 							<Tasks
 								tasks={tasks}
 								handleTaskClick={handleTaskClick}
 								handleTaskDeletion={handleTaskDeletion}
 							/>
-			</div>
-		</Router>
-	);
+      </div>
+    </Router>
+  );
 };
 
 export default App;
